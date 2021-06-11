@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#ed143d">
+    <meta name="description" content="Pokemon PWA">
+    <link rel="apple-touch-icon" href="logo.png">
+
+    <title>Pokemon PWA</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body style="background-color: crimson">
+    <div class="container">
+      <h2 class="mt-5 mb-5 text-center text-white">Pokemon App</h2>
+
+      <div class="row">
+        <div class="col-md-6 mx-auto mt-5 text-center">
+          <label for="pokemonList" class="text-white">Select Pokemon</label>
+          <select class="form-control containter-fluid" id="pokemonList" style="text-transform: capitalize"></select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 mx-auto mt-5 text-center">
+          <div class="card" id="pokemonCard"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
